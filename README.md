@@ -1,5 +1,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/v2-heroku)
 
+Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问tor网络，比如暗网.onion，v2ray.json文件中路由设置了当访问.onion的网址时才会接入到tor，感谢mixool提供的思路和技术支持！
+
 #### 部署服务端
 
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字，然后换上从 https://www.uuidgenerator.net/ 拷贝过来的UUID，点击下面deploy创建APP，完成后会生成一个链接，点击链接显示“Bad Request”就说明部署成功了！
@@ -68,3 +70,5 @@
 }
 ```
 捐赠本博：https://yeahwu.com/donation.html
+
+测试暗网页面：http://vq7kihyfoqcoluju.onion/donation.html
