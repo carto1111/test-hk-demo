@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # config v2ray
-cat << EOF > /usr/bin/v2ray/config.json
+cat << EOF > /etc/config.json
 {
     "inbounds": [
         {
@@ -63,6 +63,6 @@ cat << EOF > /usr/bin/v2ray/config.json
 }		
 EOF
 
-# start tor v2ray
+# start tor and v2ray
 nohup tor &
-/usr/bin/v2ray/v2ray -config /usr/bin/v2ray/config.json
+v2ray -config /etc/config.json
