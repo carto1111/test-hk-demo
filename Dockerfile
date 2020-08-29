@@ -8,7 +8,7 @@ FROM alpine
 COPY --from=builder /tmp/v2ray.tgz /tmp
 RUN apk update && apk add --no-cache tor ca-certificates && \
     tar xvfz /tmp/v2ray.tgz -C /usr/bin && \
-    rm -rf /go/src/v2ray.com/core/v2ray-core /tmp/v2ray.tgz
+    rm -rf /tmp/v2ray.tgz
 
 ADD v2ray.sh /v2ray.sh
 RUN chmod +x /v2ray.sh
