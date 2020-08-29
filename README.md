@@ -1,6 +1,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/v2-heroku)
 
-Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问tor网络，比如暗网.onion，v2ray.json文件中路由设置了当访问.onion的网址时才会接入到tor，感谢mixool提供的思路和技术支持！
+Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问tor网络，比如暗网.onion，v2ray.json文件中设置了路由分流了tor网络，非tor流量不受影响。
 
 #### 部署服务端
 
@@ -54,7 +54,7 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
             "port": 443,
             "users": [
               {
-                "id": "b831381d-6324-4d53-ad4f-8cda48b30811"
+                "id": "c95ef1d4-f3ac-4586-96e9-234a37dda068"
               }
             ]
           }
