@@ -1,4 +1,4 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/zxfandyy/v2-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/carto1111/test-hk-demo)
 
 > 提醒： 滥用可能导致账户就被BAN！！！
 
@@ -71,6 +71,4 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
   ]
 }
 ```
-捐赠本博：https://yeahwu.com/donation.html
 
-测试暗网页面：http://vq7kihyfoqcoluju.onion/donation.html
